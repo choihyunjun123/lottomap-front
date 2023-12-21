@@ -27,9 +27,9 @@ const Header = () => {
         window.location.reload();
     };
 
-    // 상품 click 이벤트
+    // 판매점 click 이벤트
     const headerItem = () => {
-        navigate("/product");
+        navigate("/store");
     };
 
     // 고객센터 click 이벤트
@@ -82,7 +82,7 @@ const Header = () => {
                         headerItem();
                     }}
                 >
-                    상품
+                    판매점
                 </div>
                 <div
                     onClick={() => {
