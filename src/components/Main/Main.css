@@ -1,0 +1,103 @@
+.allWrap {
+    width: 1500px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+}
+
+.leftWrap {
+    width: 420px;
+    height: 400px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    background-color: #fde3c6;
+    border-radius: 30px;
+}
+
+.rightWrap {
+    width: 920px;
+    height: 400px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    background-color: #e1c697;
+    border-radius: 30px;
+}
+
+.lottoName {
+    font-size: 18px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.leftLine {
+    width: 420px;
+    height: 1px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+.resultName {
+    font-size: 23px;
+    text-align: center;
+    height: 35px;
+}
+
+.resultDate {
+    font-size: 13px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.resultNumber {
+    margin-top: 40px;
+    height: 30px;
+}
+
+.winner {
+    display: flex;
+    height: 40px;
+    font-size: 20px;
+    background-color: #e1c697;
+    align-items: center;
+    justify-content: center;
+}
+
+.winnerPriceWrap {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.winnerMoney {
+    font-size: 25px;
+}
+
+.winnerPeople {
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.winnerButtonWrap {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.winnerButton {
+    width: 120px;
+    height: 30px;
+    background-color: #a6865f;
+    border-color: #a6865f;
+    border-radius: 5px;
+}
+
+.rightLine {
+    width: 920px;
+    height: 1px;
+    background-color: black;
+    margin-bottom: 20px;
+}
