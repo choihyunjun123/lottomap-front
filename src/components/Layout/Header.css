@@ -1,0 +1,61 @@
+.headerTop {
+    width: 1620px;
+    display: flex;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+}
+
+.headerLogo {
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 242px;
+    height: 55px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.headerRight {
+    display: flex;
+    color: #B9A89A;
+    text-align: right;
+    font-size: 20px;
+    font-family: Noto Sans, serif;
+    font-weight: 700;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.headerRight div {
+    margin-left: 50px;
+}
+
+.headerSearchBox {
+    width: 326px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 3px solid rgba(185, 168, 154, 0.7);
+    cursor: text;
+    font-size: 18px;
+    outline: none !important;
+    padding-left: 25px;
+}
+
+.headerSearchIcon {
+    position: absolute;
+    background-image: url(../../image/search.png);
+    border: none;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    background-size: contain;
+    background-color: white;
+}
+
+.headerNoLogin {
+    margin-left: 50px;
+}
