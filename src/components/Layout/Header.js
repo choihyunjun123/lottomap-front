@@ -24,7 +24,6 @@ const Header = () => {
     const headerLogo = () => {
         // searchRef.current.value = "";
         navigate("/");
-        window.location.reload();
     };
 
     // 판매점 click 이벤트
@@ -45,7 +44,6 @@ const Header = () => {
     // 관리자페이지 click 이벤트
     const headerAdmin = () => {
         navigate("/admin/main");
-        window.location.reload();
     };
 
     // 마이페이지 click 이벤트
