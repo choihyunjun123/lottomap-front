@@ -1,6 +1,6 @@
 const Main = () => {
     return (
-        <div>메인입니다</div>
+        <div>이제 메인을 맏릉</div>
     );
 };
 
